@@ -5,12 +5,16 @@ def print_hello():
   for i in arr:
     print(i + 10)
 
-def print_items(n):
+def print_itemsone(n):
     print('items before ')
     while n>1:
       print(n)
       n-=1
 
+def print_items(n):
+   for i in range(n):
+      print(i)
+    
  
 print_items(4)
 
